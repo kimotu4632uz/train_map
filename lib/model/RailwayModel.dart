@@ -39,13 +39,14 @@ class Station {
 class RailwayModel {
   String id;
   List<LineString> lineCoords;
-  List<Station> stationCoords;
+  List<Station>? stationCoords;
 
   RailwayModel({required this.id, required this.lineCoords, required this.stationCoords});
 
   factory RailwayModel.fromMap(Map<String, String> json) => RailwayModel(
     id: json["id"] ?? "",
     lineCoords: (json["line_coords"] ?? "").split("/").map((e) => LineString.fromString(e)).toList(),
-    stationCoords: (json["station_coords"] ?? "").split("/").map((e) => Station.fromString(e)).toList(),
+//    stationCoords: (json["station_coords"] ?? "").split("/").map((e) => Station.fromString(e)).toList(),
+    stationCoords: null
   );
 }

@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'HomePage.dart';
+
+import 'package:train_map/HomePage.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
+  Widget build(BuildContext context) =>
+    MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'train_map',
       theme: ThemeData(
@@ -14,5 +15,4 @@ class MyApp extends StatelessWidget {
       ),
       home: HomePage(),
     );
-  }
 }

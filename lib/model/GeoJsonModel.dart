@@ -1,5 +1,6 @@
 import 'package:latlong2/latlong.dart';
-import 'RailwayModel.dart';
+
+import 'package:train_map/model/RailwayModel.dart';
 
 class Feature {
   String comp;

@@ -1,8 +1,7 @@
+import 'package:train_map/db_provider.dart';
+import 'package:train_map/model/CompLineModel.dart';
+import 'package:train_map/model/GeoJsonModel.dart';
 import 'package:train_map/model/RailwayModel.dart';
-
-import '../db_provider.dart';
-import '../model/CompLineModel.dart';
-import '../model/GeoJsonModel.dart';
 
 class RailwayDao {
   final dbProvider = DBProvider.dbProvider;

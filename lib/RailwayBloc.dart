@@ -1,51 +1,62 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:train_map/dao/RailwayDao.dart';
-import 'package:train_map/model/CompLineModel.dart';
-import 'package:train_map/model/GeoJsonModel.dart';
+import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:flutter_map/flutter_map.dart';
 
+import 'package:train_map/dao/RailwayDao.dart';
+import 'package:train_map/model/CompLineModel.dart';
+import 'package:train_map/model/GeoJsonModel.dart';
+
 class RailwayBloc {
   final _dao = RailwayDao();
-  final _controller = BehaviorSubject<List<CompLineModel>>();
-  List<String> showId = [];
-  final _showController = BehaviorSubject<List<String>>.seeded([]);
-  final _polylinesController = BehaviorSubject<List<Polyline>>();
+  final _compLineController = BehaviorSubject<List<CompLineModel>>();
+
+  Map<String, List<Polyline>> _polylineMap = {};
+  final _polylinesController = BehaviorSubject<Map<String, List<Polyline>>>.seeded({});
 
   RailwayBloc() {
-    _controller.addStream(_dao.getCompLine());
+    _compLineController.addStream(_dao.getCompLine());
   }
 
-  List<Polyline> get polylines => showId;
-  Stream<Null> get polylineNotify => _polylinesController.stream;
+  Stream<List<Polyline>> get polylines => _polylinesController.stream.transform(
+    StreamTransformer.fromHandlers(
+      handleData: (data, sink) {
+        sink.add(data.values.expand((e) => e).toList());
+      }
+    )
+  );
+
+  Stream<List<CompLineModel>> get compLine => _compLineController.stream;
 
   Future<void> importRailroadGeojson(Stream<List<int>> geojson) async {
     final content = await utf8.decodeStream(geojson);
     final json = jsonDecode(content);
     final model = GeoJsonModel.fromJson(json);
     await _dao.insert(model);
-
-  }
-
-  Stream<List<CompLineModel>> getCompLine() {
-//    _controller.addStream(_dao.getCompLine());
-    return _controller.stream;
   }
 
   void pushId(String id) {
-    showId.add(id);
-    _showController.sink.add(showId);
+    _dao.getRailway(id).listen((model) {
+      _polylineMap[id] = model.lineCoords.map((line) => Polyline(
+          points: line.coords,
+          strokeWidth: 3,
+          borderColor: Colors.black87,
+          borderStrokeWidth: 1,
+          color: Colors.blueAccent
+      )).toList();
+      _polylinesController.sink.add(_polylineMap);
+    });
   }
 
   void popId(String id) {
-    showId.remove(id);
-    _showController.sink.add(showId);
+    _polylineMap.remove(id);
+    _polylinesController.sink.add(_polylineMap);
   }
 
   void dispose() {
-    _controller.close();
-    _showController.close();
+    _compLineController.close();
+    _polylinesController.close();
   }
 }
