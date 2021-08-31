@@ -36,17 +36,22 @@ class Station {
   String toString() => coord.toFormatedString() + ';' + name;
 }
 
-class RailwayModel {
+class GeometryModel {
   String id;
-  List<LineString> lineCoords;
+  List<LineString>? lineCoords;
   List<Station>? stationCoords;
 
-  RailwayModel({required this.id, required this.lineCoords, required this.stationCoords});
+  GeometryModel({required this.id, this.lineCoords, this.stationCoords});
 
-  factory RailwayModel.fromMap(Map<String, String> json) => RailwayModel(
-    id: json["id"] ?? "",
-    lineCoords: (json["line_coords"] ?? "").split("/").map((e) => LineString.fromString(e)).toList(),
-//    stationCoords: (json["station_coords"] ?? "").split("/").map((e) => Station.fromString(e)).toList(),
-    stationCoords: null
+  factory GeometryModel.fromMap(Map<String, String> map) => GeometryModel(
+    id: map["id"]!,
+    lineCoords: map["line_coords"]?.split("/").map((e) => LineString.fromString(e)).toList(),
+    stationCoords: map["station_coords"]?.split("/").map((e) => Station.fromString(e)).toList(),
   );
+
+  Map<String, String?> toMap() => {
+    "id": id,
+    "line_coords": lineCoords?.map((e) => e.toString()).join('/'),
+    "station_coords": stationCoords?.map((e) => e.toString()).join('/')
+  }..removeWhere((_, v) => v == null);
 }

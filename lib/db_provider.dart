@@ -20,11 +20,16 @@ class DBProvider {
     return await openDatabase(path, version: 1,
       onCreate: (Database db, int version) async {
         await db.execute(
-          'CREATE TABLE railway (id TEXT PRIMARY KEY, comp TEXT, line TEXT, line_coords TEXT, station_coords TEXT)'
+          'CREATE TABLE geometry(id TEXT PRIMARY KEY, line_coords TEXT, station_coords TEXT)'
+        );
+        await db.execute(
+          "CREATE TABLE comp(name TEXT PRIMARY KEY, 'index' INT, type TEXT)"
+        );
+        await db.execute(
+          "CREATE TABLE line(name TEXT, comp TEXT, type TEXT, color TEXT, 'index' INT)"
         );
       }
     );
   }
-
 
 }

@@ -16,6 +16,20 @@
             </list>
           </value>
         </entry>
+        <entry key="archive">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/archive-3.1.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="args">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/args-2.2.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="async">
           <value>
             <list>
@@ -86,6 +100,13 @@
             </list>
           </value>
         </entry>
+        <entry key="extra_pedantic">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/extra_pedantic-1.5.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="fake_async">
           <value>
             <list>
@@ -121,6 +142,20 @@
             </list>
           </value>
         </entry>
+        <entry key="flutter_launcher_icons">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_launcher_icons-0.9.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="flutter_localizations">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/packages/flutter_localizations/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="flutter_map">
           <value>
             <list>
@@ -149,6 +184,27 @@
             </list>
           </value>
         </entry>
+        <entry key="geodesy">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/geodesy-0.4.0-nullsafety.0/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="geojson">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/geojson-1.0.0/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="geopoint">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/geopoint-1.0.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="glob">
           <value>
             <list>
@@ -170,10 +226,24 @@
             </list>
           </value>
         </entry>
+        <entry key="image">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/image-3.0.2/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="intl">
           <value>
             <list>
               <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="iso">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/iso-1.0.0/lib" />
             </list>
           </value>
         </entry>
@@ -282,6 +352,13 @@
             </list>
           </value>
         </entry>
+        <entry key="petitparser">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-4.1.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="platform">
           <value>
             <list>
@@ -352,6 +429,13 @@
             </list>
           </value>
         </entry>
+        <entry key="slugify">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/slugify-2.0.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="source_span">
           <value>
             <list>
@@ -362,14 +446,14 @@
         <entry key="sqflite">
           <value>
             <list>
-              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+3/lib" />
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/lib" />
             </list>
           </value>
         </entry>
         <entry key="sqflite_common">
           <value>
             <list>
-              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite_common-2.0.0+2/lib" />
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite_common-2.0.1/lib" />
             </list>
           </value>
         </entry>
@@ -460,7 +544,7 @@
         <entry key="win32">
           <value>
             <list>
-              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.2.5/lib" />
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.2.7/lib" />
             </list>
           </value>
         </entry>
@@ -478,6 +562,13 @@
             </list>
           </value>
         </entry>
+        <entry key="xml">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/xml-5.1.2/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="yaml">
           <value>
             <list>
@@ -490,6 +581,8 @@
     <CLASSES>
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-21.0.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-1.5.0/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/archive-3.1.2/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/args-2.2.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.6.1/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0/lib" />
@@ -500,16 +593,23 @@
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/convert-3.0.1/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.1/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.3/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/extra_pedantic-1.5.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/ffi-1.1.2/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.2/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/file_picker-4.0.0/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_launcher_icons-0.9.2/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_map-0.13.1/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.2/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/geodesy-0.4.0-nullsafety.0/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/geojson-1.0.0/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/geopoint-1.0.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/glob-2.0.1/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.3/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/image-3.0.2/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/iso-1.0.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/latlong2-0.8.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/lists-1.0.1/lib" />
@@ -525,6 +625,7 @@
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-2.0.1/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.3/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.11.1/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-4.1.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.0.2/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.1/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/positioned_tap_detector_2-1.0.0/lib" />
@@ -534,9 +635,10 @@
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/pub_semver-2.0.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-3.0.1/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.27.1/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/slugify-2.0.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.1/lib" />
-      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+3/lib" />
-      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite_common-2.0.0+2/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite_common-2.0.1/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0/lib" />
@@ -549,12 +651,14 @@
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/unicode-0.3.1/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/watcher-1.0.0/lib" />
-      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.2.5/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.2.7/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/wkt_parser-2.0.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.2.0/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/xml-5.1.2/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/yaml-3.1.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/bin/cache/pkg/sky_engine/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/packages/flutter/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/packages/flutter_localizations/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/packages/flutter_test/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/packages/flutter_web_plugins/lib" />
     </CLASSES>
