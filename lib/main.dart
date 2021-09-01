@@ -20,9 +20,11 @@ class MyApp extends StatelessWidget {
         MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'train_map',
-          theme: ThemeData(
-            primarySwatch: Colors.blue,
-          ),
+          routes: {
+            '/': (_) => HomePage(),
+            '/sort': (_) => SortPage(),
+          },
+          initialRoute: '/',
           locale: locale,
           localizationsDelegates: const [
             GlobalMaterialLocalizations.delegate,
@@ -32,11 +34,9 @@ class MyApp extends StatelessWidget {
           supportedLocales: [
             locale,
           ],
-          routes: {
-            '/': (_) => HomePage(),
-            '/sort': (_) => SortPage(),
-          },
-          initialRoute: '/',
+          theme: ThemeData(
+            primarySwatch: Colors.blue,
+          ),
         ),
     );
 }

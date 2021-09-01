@@ -303,6 +303,48 @@
             </list>
           </value>
         </entry>
+        <entry key="package_info_plus">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.0.6/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="package_info_plus_linux">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus_linux-1.0.3/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="package_info_plus_macos">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus_macos-1.1.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="package_info_plus_platform_interface">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus_platform_interface-1.0.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="package_info_plus_web">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus_web-1.0.4/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="package_info_plus_windows">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus_windows-1.0.3/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="path">
           <value>
             <list>
@@ -618,6 +660,12 @@
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/mgrs_dart-2.0.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/nested-1.0.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_config-2.0.0/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.0.6/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus_linux-1.0.3/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus_macos-1.1.1/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus_platform_interface-1.0.2/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus_web-1.0.4/lib" />
+      <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus_windows-1.0.3/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.2/lib" />
       <root url="file://$USER_HOME$/Programs/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.0.2/lib" />

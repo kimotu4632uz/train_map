@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 import 'package:train_map/railway_bloc.dart';
 
@@ -11,6 +12,16 @@ class PopupOptionMenu extends StatelessWidget {
       onSelected: (value) async {
         if (value == "sort") {
           await Navigator.pushNamed(context, "/sort");
+          return;
+        }
+
+        if (value == "about") {
+          final packageInfo = await PackageInfo.fromPlatform();
+          showAboutDialog(
+            context: context,
+            applicationName: packageInfo.appName,
+            applicationVersion: packageInfo.version,
+          );
           return;
         }
 
@@ -65,6 +76,10 @@ class PopupOptionMenu extends StatelessWidget {
         PopupMenuItem(
           child: Text("menu sort"),
           value: "sort",
+        ),
+        PopupMenuItem(
+          child: Text("about this app"),
+          value: "about",
         ),
       ],
   );
